@@ -8,6 +8,7 @@ public class Main {
         // Por ejemplo:
         // MiClase miObjeto = new MiClase();
         // miObjeto.miMetodo();
+        //hola
     }
 }
 
