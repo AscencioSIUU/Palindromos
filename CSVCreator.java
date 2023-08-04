@@ -4,9 +4,10 @@ import java.io.IOException;
 
 public class CSVCreator {
 
-    public void crearArchivoCSV(String[] Palindromos) {
+
+    public void crearArchivoCSV(String[] Palabras) {
         try (BufferedWriter writer = new BufferedWriter(new FileWriter("palindromas.csv"))) {
-            for (String palabra : Palindromos) {
+            for (String palabra : Palabras) {
                 writer.write(palabra);
                 writer.newLine();
             }

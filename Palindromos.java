@@ -1,10 +1,9 @@
 public class Palindromos {
-    private String palabra;
+    public String palabra;
 
     public Palindromos(String palabra) {
         this.palabra = palabra;
     }
-
 
     public char[] reverse() {
         char[] reverse = palabra.toCharArray();
@@ -30,7 +29,7 @@ public class Palindromos {
             }
         }
 
-        
+
         return true;
 
     }

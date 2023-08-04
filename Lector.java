@@ -4,11 +4,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class LectorArchivos  {
+public class Lector  {
 
     private String file;
 
-    public LectorArchivos(String file) {
+
+    public Lector(String file) {
         this.file = file;
     }
 
@@ -29,13 +30,4 @@ public class LectorArchivos  {
         return palabras.toArray(new String[0]);
     }
 
-
-    public static void main(String[] args) {
-        LectorArchivos lector = new LectorArchivos("ruta_del_archivo.csv");
-        String[] palabras = lector.readCSV();
-
-        for (String palabra : palabras) {
-            System.out.println(palabra);
-        }
-    }
 }
