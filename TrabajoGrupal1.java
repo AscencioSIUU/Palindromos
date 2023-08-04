@@ -3,12 +3,8 @@
 public class TrabajoGrupal1 {
 
     public static void main(String[] args) {
-        // Aquí comienza la ejecución del programa
-        // Puedes llamar a las funciones o clases que necesites desde aquí
-        // Por ejemplo:
-        // MiClase miObjeto = new MiClase();
-        // miObjeto.miMetodo();
-        //hola
+        ConsoleUI programa = new ConsoleUI();
+		programa.showMenu();
     }
 
 /** Aun queda probar si esta clase se queda de este lado
